@@ -95,6 +95,105 @@ input.button1{
     font-family: Raleway;
     font-weight: 700;
 }
+
+
+.my_task{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.access_anywhere{
+    color: white;
+}
+.access_anywhere h2{
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        line-height: 35px;
+        font-family: Raleway;
+        margin-right: 300px;
+}
+.access_anywhere p{
+  text-align: center;
+  padding-top: 5px;
+  font-family: Open_sans;
+  margin-right: 300px;  
+}
+
+
+.my_task{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.security{
+    color: white;
+}
+.security h2{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 35px;
+    font-family: Raleway;
+    margin-right: 300px;
+}
+.security p{
+    text-align: center;
+    padding-top: 5px;
+    font-family: Open_sans;
+    margin-right: 300px;  
+  }
+
+
+.my_task{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.real_time{
+    color: white;
+}
+.real_time h2{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 35px;
+    font-family: Raleway;
+    margin-right: 300px;
+}
+.real_time p{
+    text-align: center;
+    padding-top: 5px;
+    font-family: Open_sans;
+    margin-right: 300px;  
+  }
+
+
+.my_task{
+    display:flex;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+.any_file{
+    color: white;
+}
+.any_file h2{
+    font-size: 28px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 35px;
+    font-family: Raleway;
+    margin-right: 300px;
+}
+.any_file p{
+    text-align: center;
+    padding-top: 5px;
+    font-family: Open_sans;
+    margin-right: 300px;  
+  }
+
+
+
 /* creating the third section */
 .my_crack{
    display: flex; 
