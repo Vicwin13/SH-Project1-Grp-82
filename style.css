@@ -95,4 +95,26 @@ input.button1{
     font-family: Raleway;
     font-weight: 700;
 }
+/* creating the third section */
+.my_crack{
+   display: flex; 
+   margin-left: 200px;
+   margin-right: 50px;
+}
 
+.my_crack img{
+    width: 500px;
+
+}    
+.my_crack_div1{
+     padding-left: 150px;
+     padding-top: 100px;
+}
+
+/* giving the text font size */
+.my_crack_h11{
+    color: white;
+}
+.my_crack_p1{
+    color:white;
+}
