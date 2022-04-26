@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FYLO Webpage Footer</title>
+</head>
+<link rel="stylesheet" href="Fylo Webpage Footer.css">
+<body>
+    <footer>
+ &#160; &#160; &#160; &#160; <img src="logo.svg" alt="">
+       <br>
+       <br>
+       <p>
+ &#160; &#160;  <img src="location logo.svg" alt="">  &#160; Lorem ipsum dolor sit amet,consecteur adipiscing elit,sed do eiusmod tempor insididunt ut labore et dolore magna aliqua.
+   </p>
+     
+      
+  
+&#160; &#160;   <img src="contact logo.svg" alt="">   &#160; +1-543-123-4567
+   
+       <br>
+       <br>
+       
+ &#160; &#160;   <img src="email logo.svg" alt="">  &#160; example@fylo.com
+    
+       <br>
+       <br>
+&#160; &#160;  About Us
+ <br>
+ <br>
+ &#160; &#160; Jobs
+ <br>
+ <br>
+&#160; &#160;  Press
+ <br>
+ <br>
+ &#160; &#160; Blog
+ <br>
+ <br>
+ <br>
+  &#160; &#160; Contact Us
+ <br>
+ <br>
+  &#160; &#160; Terms
+       <br>
+       <br>
+ &#160; &#160;  Privacy
+       
+     <img src="vecteezy_social-media-icons-set-facebook-instagram-twitter-logos_.jpg" alt="">
+  
+
+  
+    </footer>
+   
+</body>
+</html>
+
+footer{
+				background: hsl(216, 53%, 9%);
+}
+
+body{
+				color:white;
+				font-family:Open Sans;
+				font-size:14px;
+				width: 375px;
+				padding: ;
+				margin: ;
+				border:5px;
+				text-align:side;
+}
+
+img{
+			
+			
+}
