@@ -290,3 +290,55 @@ input.button1{
     text-align: justify;
     padding-bottom: 20px;
   }
+  .intro-email{
+    max-width:90%;
+    margin:0 auto;
+    background-color:hsl(217, 28%, 15%);
+    position:relative;
+    top:200px;
+    padding-top:40px;
+    padding-right:30px;
+    padding-left:30px;
+    padding-bottom:40px;
+    border-radius:5px;
+}
+@media screen and (min-width:1200px){
+    .intro-email{
+        max-width:60%;
+    
+        }
+    }
+    .intro-email h5{
+        font-size:16px;
+        color:hsl(0, 0%, 100%);
+        font-weight:700;
+        background-color:hsl(217, 28%, 15%);
+        text-align:center;
+    
+    }
+    .intro-email p{
+        font-size:14px;
+        color:hsl(0, 0%, 100%);
+        opacity:0.8;
+        line-height:1.5;
+        background-color:hsl(217, 28%, 15%);
+        margin:20px 0 20px 0;
+        text-align:center;
+    }
+    input[type=email]{
+       padding:15px;
+       width:100%;
+       background-color: white;
+       border-radius:50px;
+       outline:none;
+       border:none;
+    }
+    @media screen and (min-width:1200px){
+        input[type=email]{width:60%;}
+    }
+    .sign-btn{
+        font-size:12px;
+        cursor:pointer;
+       
+    }
+    
