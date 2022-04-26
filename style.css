@@ -8,19 +8,18 @@
     src: url(https://fonts.google.com/specimen/Open+Sans);
 }
 
-* {
+*, body {
     margin: 0;
     padding: 0;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    background-color: hsl(217, 24%, 17%);
+    background-color: hsl(218, 28%, 15%);
+    font-size: 14px;
     
 }
 
-body{
-    font-size: 14px;
-}
+
 
 #main_container .nav_bar{
     display :flex;
@@ -120,6 +119,7 @@ input.button1{
     background-color: hsl(218, 28%, 13%);
     display: flex;
     flex-wrap: wrap;
+    margin-top: 3em;
     justify-content: space-evenly;
     align-items: center;
     
@@ -162,22 +162,22 @@ input.button1{
 /* creating the third section */
 .my_crack{
    display: flex; 
-   justify-content: center;
+   justify-content: space-evenly;
+   align-items: center;
    flex-wrap: wrap;
-   padding-bottom: 50px;
+   padding-bottom: 90px;
    background-color: hsl(218, 28%, 13%);
 
 }
 
 .my_crack img{
-    width: 500px;
+    width: 450px;
     background-color: hsl(218, 28%, 13%);
 
 
 }    
 .my_crack_div1{
-     padding-left: 150px;
-     padding-top: 100px;
+    width: 450px;
     background-color: hsl(218, 28%, 13%);
 
 }
@@ -185,6 +185,9 @@ input.button1{
 /* giving the text font size */
 .my_crack_h11{
     color: white;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
     background-color: hsl(218, 28%, 13%);
 
 }
@@ -194,8 +197,17 @@ input.button1{
 
 }
 .my_crack_p2, a{
+    color: white;
     background-color: hsl(218, 28%, 13%);
-
+    display: flex;
+    align-items: center;
+    
+    
+}
+.my_crack_p2{
+    text-decoration: none;
+   
+    
 }
 
 
@@ -206,7 +218,7 @@ input.button1{
 
 
 .wrapper{
-    margin-top: 2em;
+    margin-top: 5em;
     background-color: hsl(218, 28%, 13%);
  
 }
@@ -227,7 +239,7 @@ input.button1{
  
     position: static;
     margin-left: 180px;
-    margin-bottom: -55px;
+    margin-bottom: -95px;
     width: 70px;
 
 }
@@ -289,4 +301,69 @@ input.button1{
     background-color: hsl(219, 30%, 18%);
     text-align: justify;
     padding-bottom: 20px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+      
+    *{
+        margin: 0;
+        padding: 0;
+        background-size: cover;
+    }
+
+    #main_container .nav_bar{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    #main_container .nav_bar .logo1{
+        margin-left: 25px;
+    }
+
+    .nav_bar_links ul{
+        margin-right: 20px;
+    }
+
+    .icons_container{
+        margin-top: -14em;
+        
+    }
+
+    .icons_container .no2_contain{
+        margin-top: 3em;
+    }
+
+    .icons_container .no1_contain .my_task:nth-child(2){
+        margin-top: 3em;
+    }
+    .icons_container .no2_contain .my_task:nth-child(2){
+        margin-top: 3em;
+    }
+
+    .my_crack{
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+    }
+    .my_crack_div1{
+        padding: 0;
+        margin: 0;
+    }
+    .my_crack_h11{
+        font-size: 20px;
+    
+    }
+    .logo{
+        margin-left: 100px ;
+        margin-bottom: -95px;
+        width: 50px;
+    }
+
+
+
+
+
+
+
+
   }
