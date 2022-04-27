@@ -16,8 +16,11 @@
     box-sizing: border-box;
     background-color: hsl(218, 28%, 15%);
     font-size: 14px;
+    max-width: 100%;
+    
     
 }
+
 
 
 
@@ -50,10 +53,13 @@
     font-family: Raleway;
   
 }
+
 .nav_bar_links ul li a{
     text-decoration: none;
     color: white;
     opacity: .7;
+    background-color: hsl(218, 28%, 15%);
+
 }
 .nav_bar_links ul li a:hover{
     font-weight: bolder;
@@ -68,6 +74,8 @@
 .first_content .first_image img{
     width: 30%;
     padding-top: 30px;
+    background-color: hsl(218, 28%, 15%);
+
 }
 .get_started {
     color: white;
@@ -78,11 +86,15 @@
     text-align: center;
     padding-top: 10px;
     line-height: 35px;
+    background-color: hsl(218, 28%, 15%);
+
     font-family: Raleway;
 }
 .get_started p{
     text-align: center;
     padding-top: 15px;
+    background-color: hsl(218, 28%, 15%);
+
     font-family: Open_sans;
 }
 input.button1{
@@ -151,12 +163,19 @@ input.button1{
   text-align: center;
   padding-top: 5px;
   font-size: 14px;
+  width: 400px;
   font-family: Open_sans;
   background-color: hsl(218, 28%, 13%);
 
   
 }
+.no2_contain .my_task:nth-child(2) {
+    margin-top: 3em;
+}
 
+.no1_contain .my_task:nth-child(2) {
+    margin-top: 3em;
+}
 
 
 /* creating the third section */
@@ -196,6 +215,10 @@ input.button1{
     background-color: hsl(218, 28%, 13%);
 
 }
+.my_crack_p1 p{
+    background-color: hsl(218, 28%, 13%);
+
+}
 .my_crack_p2, a{
     color: white;
     background-color: hsl(218, 28%, 13%);
@@ -204,8 +227,15 @@ input.button1{
     
     
 }
+.my_crack_p2 a,img{
+    background-color: hsl(218, 28%, 13%);
+    
+
+}
 .my_crack_p2{
-    text-decoration: none;
+
+    background-color: hsl(218, 28%, 13%);
+    text-decoration: underline;
    
     
 }
@@ -303,34 +333,32 @@ input.button1{
     padding-bottom: 20px;
   }
 
+
+
+  /* The Email dialog box*/
+
   .intro-email{
-    max-width:90%;
-    margin:0 auto;
+    margin:50px auto;
     background-color:hsl(217, 28%, 15%);
-    position:relative;
-    top:200px;
-    padding-top:40px;
-    padding-right:30px;
-    padding-left:30px;
-    padding-bottom:40px;
+   padding: 40px 30px 10px 30px;
     border-radius:5px;
-}
-
-
-
-
-@media screen and (min-width:1200px){
-    .intro-email{
-        max-width:60%;
-    
-        }
+    width:60%;
+    position: relative;
+    box-shadow: 0px 0px 6px black;
     }
+
+
+
+
+
+ 
     .intro-email h5{
-        font-size:16px;
+        font-size:20px;
         color:hsl(0, 0%, 100%);
         font-weight:700;
         background-color:hsl(217, 28%, 15%);
         text-align:center;
+        font-family: sans-serif;
     
     }
     .intro-email p{
@@ -343,21 +371,141 @@ input.button1{
         text-align:center;
     }
     input[type=email]{
-       padding:15px;
-       width:100%;
-       background-color: white;
-       border-radius:50px;
-       outline:none;
-       border:none;
+        color: rgb(0, 0, 0);
+        padding: 20px 70px 20px 20px;
+        border-radius: 60px;
+        margin-top: 20px;
+        width: 450px;
+        border: none;
+        background-color: hsl(180, 43%, 99%);
+        font-family: Raleway;
+        font-weight: 700;
     }
-    @media screen and (min-width:1200px){
-        input[type=email]{width:60%;}
+
+    .input-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
-    .sign-btn{
-        font-size:12px;
-        cursor:pointer;
-       
+
+    .intro-email p.red {
+        color: red;
+        text-align: left;
     }
+    input.button2{
+        color: white;
+        padding: 20px 70px 20px 70px;
+        border-radius: 60px;
+        margin-top: 20px;
+        border: none;
+        background-color: hsl(176, 68%, 64%);
+        font-family: Raleway;
+        font-weight: 700;
+    }
+    
+/* footer*/
+footer{
+    background: hsl(216, 53%, 9%);
+    margin-top: -180px;
+    padding-top: 180px;
+    font-family: sans-serif;
+  
+
+}
+footer .footer_logo{
+    background: hsl(216, 53%, 9%);
+
+}
+footer .footer_logo img{
+    width: 140px;
+    background-color: hsl(216, 53%, 9%);
+    margin-left: 120px;
+}
+
+
+.footer_text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 50px;
+    color: white;
+    margin-top: 0px;
+    background: hsl(216, 53%, 9%);
+
+}
+.phoness{
+    background: hsl(216, 53%, 9%);
+
+}
+.address{
+    width: 260px;
+    display: flex;
+   
+    background: hsl(216, 53%, 9%);
+
+}
+.address img, p{
+    background: hsl(216, 53%, 9%);
+
+}
+
+.phone, .mail{
+    display: flex;
+    
+    background: hsl(216, 53%, 9%);
+
+}
+.mail, a{
+    
+    background: hsl(216, 53%, 9%);
+    text-decoration: none;
+    width: 100%;
+
+}
+.mail{
+    margin-top: 15px;
+}
+.mail img{
+    background: hsl(216, 53%, 9%);
+
+}
+.phone img{
+    background: hsl(216, 53%, 9%);
+
+}
+.about_us{
+    
+    background: hsl(216, 53%, 9%);
+ 
+}
+
+.contact {
+    
+    background: hsl(216, 53%, 9%);
+
+}
+.contact p{
+    margin-top: 10px;
+}
+.about_us p{
+    margin-top: 10px;
+}
+
+.socials{
+    background: hsl(216, 53%, 9%);
+
+}
+ 
+.socials .fa-brands{
+    font-size: 20px;
+    background: hsl(216, 53%, 9%);
+    padding-right: 10px;
+    color: white;
+    
+    cursor: pointer;
+
+}
     
 
 
@@ -367,19 +515,33 @@ input.button1{
     *{
         margin: 0;
         padding: 0;
+        
         background-size: cover;
+    }
+    body{
+        width: 100vw;
     }
 
     #main_container .nav_bar{
         flex-wrap: nowrap;
+        width: inherit;
         justify-content: space-between;
     }
     #main_container .nav_bar .logo1{
         margin-left: 25px;
+        width: 100px;
     }
 
     .nav_bar_links ul{
         margin-right: 20px;
+        width: 100%;
+       
+    }
+    .nav_bar_links ul li{
+        font-size: 10px;
+    }
+    .get_started h2{
+        font-size: 20px;
     }
 
     .icons_container{
@@ -406,9 +568,10 @@ input.button1{
     .my_crack_div1{
         padding: 0;
         margin: 0;
+        width: 300px;
     }
     .my_crack_h11{
-        font-size: 20px;
+        font-size: 14px;
     
     }
     .logo{
@@ -416,7 +579,18 @@ input.button1{
         margin-bottom: -95px;
         width: 50px;
     }
-
+    .intro-email p.red{
+        display: none;
+    }
+    input.button2{
+        margin-bottom: 30px;
+    }
+    .footer_text{
+        flex-direction: column;
+    }
+    .phoness, .contact,.socials, .about_us{
+        margin-top: 50px;
+    }
 
 
 
@@ -426,3 +600,112 @@ input.button1{
 
   }
 
+@media only screen and (max-width:375px) {
+    
+    * body {
+        margin: 0;
+        padding: 0;
+    
+ 
+      
+        
+    }
+    #main_container .nav_bar{
+        width: inherit;
+        height: 100%;
+      
+    }
+   #main_container .nav_bar .logo1{
+        margin-left: 10px;
+    }
+
+    .nav_bar_links ul{
+        width: 100%;
+    background-color: hsl(218, 28%, 15%);
+    
+        
+    }
+    .nav_bar_links ul li a{
+    background-color: hsl(218, 28%, 15%);
+
+    }
+    .get_started h2{
+        font-size: 16px;
+        line-height: 20px;
+       
+    }
+    .get_started p{
+        font-size: 10px;
+        line-height: 20px;
+        opacity: .7;
+       
+    }
+    .button1{
+        width: 180px;
+        height: 30px;
+        text-align: center;
+    }
+    .button1[value]{
+        text-align: center;
+        padding: 0;
+        font-size: 10px;
+    }
+    .first_content{
+        width: inherit;
+    
+    }
+
+    .my_task p {
+        
+        width: 270px;
+    }
+    .curvy{
+        display: none;
+    }
+    .icons_container{
+        margin-top: 6em;
+        
+        
+    }
+    .my_crack img{
+        width: 310px
+    }
+    .my_crack_div1{
+        text-align: justify;
+        width: 300px;
+    }
+   
+.intro-email{
+    width: 80%;
+}
+.intro-email h5{
+    font-size: 15px;
+}
+.intro-email input:nth-child(1){
+    padding: 10px 20px 10px 20px ;
+    width: 90%;
+}
+
+.intro-email .button2[value]{
+    padding: 10px 20px 10px 20px ;
+    width: 90%;
+}
+
+
+    footer{
+        background-size: cover;
+        width: 100%;
+    }
+
+   footer .footer_logo img{
+        margin-left: 60px;
+    }
+
+    .socials{
+        margin: 0 auto;
+    }
+    .contact{
+        margin: 20px 0px 20px 0px;
+    }
+
+}
