@@ -115,8 +115,7 @@ input.button1{
     z-index: -2;
     height: 100vh;
     width: 100%;
-    background: url("flyo designs/images/bg-curvy-desktop.svg");
-    
+    background: url("/bg-curvy-desktop.svg");
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -168,13 +167,6 @@ input.button1{
   background-color: hsl(218, 28%, 13%);
 
   
-}
-.no2_contain .my_task:nth-child(2) {
-    margin-top: 3em;
-}
-
-.no1_contain .my_task:nth-child(2) {
-    margin-top: 3em;
 }
 
 
@@ -271,6 +263,7 @@ input.button1{
     margin-left: 180px;
     margin-bottom: -95px;
     width: 70px;
+    background-color: hsl(219, 30%, 18%);
 
 }
 .team .team_member{
@@ -291,7 +284,8 @@ input.button1{
     margin-right: 50%;
     width: 50px;
     height: 50px;
-    background-color: hsl(219, 30%, 18%);
+    background-color:hsl(217, 28%, 15%);
+
   }
   
   .team .team_member .team_img2 img{
@@ -567,8 +561,8 @@ footer .footer_logo img{
     }
     .my_crack_div1{
         padding: 0;
-        margin: 0;
-        width: 300px;
+        margin-top: 40px;
+        width: 320px;
     }
     .my_crack_h11{
         font-size: 14px;
@@ -591,9 +585,13 @@ footer .footer_logo img{
     .phoness, .contact,.socials, .about_us{
         margin-top: 50px;
     }
+    .socials{
+        margin: 20px auto;
+    }
 
-
-
+    footer .footer_logo img{
+        margin-left: 60px;
+    }
 
 
 
@@ -659,9 +657,7 @@ footer .footer_logo img{
         
         width: 270px;
     }
-    .curvy{
-        display: none;
-    }
+   
     .icons_container{
         margin-top: 6em;
         
