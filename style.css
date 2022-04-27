@@ -473,7 +473,13 @@ footer .footer_logo img{
     background: hsl(216, 53%, 9%);
  
 }
+.about_us  p:hover{
+    font-size: 15px;
+}
 
+.contact p:hover{
+    font-size: 15px;
+}
 .contact {
     
     background: hsl(216, 53%, 9%);
@@ -488,6 +494,11 @@ footer .footer_logo img{
 
 .socials{
     background: hsl(216, 53%, 9%);
+
+}
+
+.socials .fa-brands:hover{
+    font-size: 25px;
 
 }
  
@@ -539,7 +550,7 @@ footer .footer_logo img{
     }
 
     .icons_container{
-        margin-top: -14em;
+        margin-top: -20em;
         
     }
 
@@ -638,6 +649,9 @@ footer .footer_logo img{
         opacity: .7;
        
     }
+    .cyrvy{
+        display: none;
+    }
     .button1{
         width: 180px;
         height: 30px;
@@ -659,7 +673,7 @@ footer .footer_logo img{
     }
    
     .icons_container{
-        margin-top: 6em;
+        margin-top: -15em;
         
         
     }
