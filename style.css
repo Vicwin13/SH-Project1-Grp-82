@@ -3,12 +3,14 @@
     src: url(https://fonts.google.com/specimen/Raleway);
     font-weight: bolder;
 }
+
 @font-face {
     font-family: Open_Sans;
     src: url(https://fonts.google.com/specimen/Open+Sans);
 }
 
-*, body {
+*,
+body {
     margin: 0;
     padding: 0;
     background-size: cover;
@@ -17,71 +19,76 @@
     background-color: hsl(218, 28%, 15%);
     font-size: 14px;
     max-width: 100%;
-    
-    
+
+
 }
 
 
 
 
-#main_container .nav_bar{
-    display :flex;
+#main_container .nav_bar {
+    display: flex;
     flex-wrap: wrap;
     align-items: center;
     margin-top: 15px;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
-#main_container .nav_bar .logo1{
+#main_container .nav_bar .logo1 {
     width: fit-content;
     margin-left: 100px;
 
 }
-#main_container .nav_bar .logo1 img{
-    width : 75%;
+
+#main_container .nav_bar .logo1 img {
+    width: 75%;
 }
+
 .nav_bar_links ul {
     display: flex;
     justify-content: space-between;
     margin-right: 100px;
-    
+
 }
 
 .nav_bar_links ul li {
     list-style: none;
     padding: 10px;
     font-family: Raleway;
-  
+
 }
 
-.nav_bar_links ul li a{
+.nav_bar_links ul li a {
     text-decoration: none;
     color: white;
     opacity: .7;
     background-color: hsl(218, 28%, 15%);
 
 }
-.nav_bar_links ul li a:hover{
+
+.nav_bar_links ul li a:hover {
     font-weight: bolder;
     text-decoration: underline;
     opacity: 1;
 }
 
-.first_content{
-   text-align: center;
+.first_content {
+    text-align: center;
 }
 
-.first_content .first_image img{
+.first_content .first_image img {
     width: 30%;
     padding-top: 30px;
     background-color: hsl(218, 28%, 15%);
 
 }
+
 .get_started {
     color: white;
 
 }
-.get_started h2{
+
+.get_started h2 {
     font-size: 28px;
     text-align: center;
     padding-top: 10px;
@@ -90,14 +97,16 @@
 
     font-family: Raleway;
 }
-.get_started p{
+
+.get_started p {
     text-align: center;
     padding-top: 15px;
     background-color: hsl(218, 28%, 15%);
 
     font-family: Open_sans;
 }
-input.button1{
+
+input.button1 {
     color: white;
     padding: 20px 70px 20px 70px;
     border-radius: 60px;
@@ -109,7 +118,7 @@ input.button1{
 }
 
 /* the second section */
-.curvy{
+.curvy {
     position: static;
     margin-top: -300px;
     z-index: -2;
@@ -120,81 +129,87 @@ input.button1{
     background-repeat: no-repeat;
 }
 
-.icons_container{
+.icons_container {
     margin-top: -20em;
     padding-bottom: 80px;
     background-color: hsl(218, 28%, 13%);
 }
 
-.icons_container .no1_contain, .no2_contain{
+.icons_container .no1_contain,
+.no2_contain {
     background-color: hsl(218, 28%, 13%);
     display: flex;
     flex-wrap: wrap;
     margin-top: 3em;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
-.my_task{
+
+.my_task {
     text-align: center;
-   color: white;
+    color: white;
     width: fit-content;
     background-color: hsl(218, 28%, 13%);
 
 
 }
-.my_task img{
+
+.my_task img {
     background-color: hsl(218, 28%, 13%);
 
 }
-.my_task h2{
-        font-size: 16px;
-        text-align: center;
-        padding-top: 10px;
-        line-height: 35px;
-        font-weight: 700;
-        font-family: Raleway;
+
+.my_task h2 {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 35px;
+    font-weight: 700;
+    font-family: Raleway;
     background-color: hsl(218, 28%, 13%);
 
-        
-}
-.my_task p{
-  text-align: center;
-  padding-top: 5px;
-  font-size: 14px;
-  width: 400px;
-  font-family: Open_sans;
-  background-color: hsl(218, 28%, 13%);
 
-  
+}
+
+.my_task p {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 14px;
+    width: 400px;
+    font-family: Open_sans;
+    background-color: hsl(218, 28%, 13%);
+
+
 }
 
 
 /* creating the third section */
-.my_crack{
-   display: flex; 
-   justify-content: space-evenly;
-   align-items: center;
-   flex-wrap: wrap;
-   padding-bottom: 90px;
-   background-color: hsl(218, 28%, 13%);
+.my_crack {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 90px;
+    background-color: hsl(218, 28%, 13%);
 
 }
 
-.my_crack img{
+.my_crack img {
     width: 450px;
     background-color: hsl(218, 28%, 13%);
 
 
-}    
-.my_crack_div1{
+}
+
+.my_crack_div1 {
     width: 450px;
     background-color: hsl(218, 28%, 13%);
 
 }
 
 /* giving the text font size */
-.my_crack_h11{
+.my_crack_h11 {
     color: white;
     font-size: 40px;
     padding-bottom: 20px;
@@ -202,34 +217,41 @@ input.button1{
     background-color: hsl(218, 28%, 13%);
 
 }
-.my_crack_p1{
-    color:white;
+
+.my_crack_p1 {
+    color: white;
     background-color: hsl(218, 28%, 13%);
 
 }
-.my_crack_p1 p{
+
+.my_crack_p1 p {
     background-color: hsl(218, 28%, 13%);
 
 }
-.my_crack_p2, a{
+
+.my_crack_p2,
+a {
     color: white;
     background-color: hsl(218, 28%, 13%);
     display: flex;
     align-items: center;
-    
-    
-}
-.my_crack_p2 a,img{
-    background-color: hsl(218, 28%, 13%);
-    
+
 
 }
-.my_crack_p2{
+
+.my_crack_p2 a,
+img {
+    background-color: hsl(218, 28%, 13%);
+
+
+}
+
+.my_crack_p2 {
 
     background-color: hsl(218, 28%, 13%);
     text-decoration: underline;
-   
-    
+
+
 }
 
 
@@ -239,26 +261,27 @@ input.button1{
 
 
 
-.wrapper{
+.wrapper {
     margin-top: 5em;
     background-color: hsl(218, 28%, 13%);
- 
+
 }
 
 
 
-.team{
-  display: flex;
-  justify-content:center;
-  width: auto;
-  text-align: center;
-  flex-wrap: wrap;
-  
+.team {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
 
-  
+
+
 }
-.logo{
- 
+
+.logo {
+
     position: static;
     margin-left: 180px;
     margin-bottom: -95px;
@@ -266,158 +289,170 @@ input.button1{
     background-color: hsl(219, 30%, 18%);
 
 }
-.team .team_member{
-  background-color: hsl(219, 30%, 18%);
-  margin: 5px;
-  margin-bottom: 50px;
-  width: 320px;
-  padding: 20px;
-  line-height: 20px;
-  color: #ececec;  
-  position: relative;
-    box-shadow: 0px 0px 500px 0px rgba(0,0,0,0.75);
+
+.team .team_member {
+    background-color: hsl(219, 30%, 18%);
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 320px;
+    padding: 20px;
+    line-height: 20px;
+    color: #ececec;
+    position: relative;
+    box-shadow: 0px 0px 500px 0px rgba(0, 0, 0, 0.75);
 }
 
 
-.team .team_member .team_img2{
+.team .team_member .team_img2 {
     padding-top: 5px;
     margin-right: 50%;
     width: 50px;
     height: 50px;
-    background-color:hsl(217, 28%, 15%);
+    background-color: hsl(219, 30%, 18%);
 
-  }
-  
-  .team .team_member .team_img2 img{
+}
+
+.team .team_member .team_img2 img {
     width: 100%;
     height: 100%;
     float: left;
     padding: 5px;
     border-radius: 50%;
     background-color: hsl(219, 30%, 18%);
-  }
-  .team .team_member .content{
+}
+
+.team .team_member .content {
     margin-left: 60px;
     float: left;
     position: absolute;
-    
-  }
-  .team .team_member .content p{
+
+}
+
+.team .team_member .content p {
     font-size: 10px;
     margin: 0px;
     background-color: hsl(219, 30%, 18%);
-    
-  }
 
-  .team .team_member .content p:nth-child(1){
-   
-        font-size: 16px;
-        font-weight: 700;
-        margin-left: 0;
-        
-  }
-  .team .team_member .content p:nth-child(2){
-      
-      margin-top: -24px;
-  }
+}
 
-  .wrapper .team .team_member p{
+.team .team_member .content p:nth-child(1) {
+
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 0;
+
+}
+
+.team .team_member .content p:nth-child(2) {
+
+    margin-top: -24px;
+}
+
+.wrapper .team .team_member p {
     background-color: hsl(219, 30%, 18%);
     text-align: justify;
     padding-bottom: 20px;
-  }
+}
 
 
 
-  /* The Email dialog box*/
+/* The Email dialog box*/
 
-  .intro-email{
-    margin:50px auto;
-    background-color:hsl(217, 28%, 15%);
-   padding: 40px 30px 10px 30px;
-    border-radius:5px;
-    width:60%;
+.intro-email {
+    margin: 50px auto;
+    background-color: hsl(217, 28%, 15%);
+    padding: 40px 30px 10px 30px;
+    border-radius: 5px;
+    width: 60%;
     position: relative;
     box-shadow: 0px 0px 6px black;
-    }
+}
 
 
 
 
 
- 
-    .intro-email h5{
-        font-size:20px;
-        color:hsl(0, 0%, 100%);
-        font-weight:700;
-        background-color:hsl(217, 28%, 15%);
-        text-align:center;
-        font-family: sans-serif;
-    
-    }
-    .intro-email p{
-        font-size:14px;
-        color:hsl(0, 0%, 100%);
-        opacity:0.8;
-        line-height:1.5;
-        background-color:hsl(217, 28%, 15%);
-        margin:20px 0 20px 0;
-        text-align:center;
-    }
-    input[type=email]{
-        color: rgb(0, 0, 0);
-        padding: 20px 70px 20px 20px;
-        border-radius: 60px;
-        margin-top: 20px;
-        width: 450px;
-        border: none;
-        background-color: hsl(180, 43%, 99%);
-        font-family: Raleway;
-        font-weight: 700;
-    }
 
-    .input-container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+.intro-email h5 {
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    font-family: sans-serif;
 
-    .intro-email p.red {
-        color: red;
-        text-align: left;
-    }
-    input.button2{
-        color: white;
-        padding: 20px 70px 20px 70px;
-        border-radius: 60px;
-        margin-top: 20px;
-        border: none;
-        background-color: hsl(176, 68%, 64%);
-        font-family: Raleway;
-        font-weight: 700;
-    }
-    
+}
+
+.intro-email p {
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
+    opacity: 0.8;
+    line-height: 1.5;
+    background-color: hsl(217, 28%, 15%);
+    margin: 20px 0 20px 0;
+    text-align: center;
+}
+
+input[type=email] {
+    color: rgb(0, 0, 0);
+    padding: 20px 70px 20px 20px;
+    border-radius: 60px;
+    margin-top: 20px;
+    min-width: 60%;
+    border: none;
+    background-color: hsl(180, 43%, 99%);
+    font-family: Raleway;
+    font-weight: 700;
+}
+
+.input-container {
+    /* width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.intro-email p.red {
+    color: red;
+    text-align: left;
+}
+
+input.button2 {
+    color: white;
+    padding: 20px 70px;
+    text-align: center;
+    border-radius: 60px;
+
+    margin-top: 20px;
+    border: none;
+    background-color: hsl(176, 68%, 64%);
+    font-family: Raleway;
+    font-weight: 700;
+}
+
 /* footer*/
-footer{
+footer {
     background: hsl(216, 53%, 9%);
     margin-top: -180px;
     padding-top: 180px;
     font-family: sans-serif;
-  
+
 
 }
-footer .footer_logo{
+
+footer .footer_logo {
     background: hsl(216, 53%, 9%);
 
 }
-footer .footer_logo img{
+
+footer .footer_logo img {
     width: 140px;
     background-color: hsl(216, 53%, 9%);
     margin-left: 120px;
 }
 
 
-.footer_text{
+.footer_text {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -428,293 +463,346 @@ footer .footer_logo img{
     background: hsl(216, 53%, 9%);
 
 }
-.phoness{
+
+.phoness {
     background: hsl(216, 53%, 9%);
 
 }
-.address{
+
+.address {
     width: 260px;
     display: flex;
-   
-    background: hsl(216, 53%, 9%);
 
-}
-.address img, p{
     background: hsl(216, 53%, 9%);
 
 }
 
-.phone, .mail{
+.address img,
+p {
+    background: hsl(216, 53%, 9%);
+
+}
+
+.phone,
+.mail {
     display: flex;
-    
+
     background: hsl(216, 53%, 9%);
 
 }
-.mail, a{
-    
+
+.mail,
+a {
+
     background: hsl(216, 53%, 9%);
     text-decoration: none;
     width: 100%;
 
 }
-.mail{
+
+.mail {
     margin-top: 15px;
 }
-.mail img{
+
+.mail img {
     background: hsl(216, 53%, 9%);
 
 }
-.phone img{
+
+.phone img {
     background: hsl(216, 53%, 9%);
 
 }
-.about_us{
-    
+
+.about_us {
+
     background: hsl(216, 53%, 9%);
- 
+
 }
-.about_us  p:hover{
+
+.about_us p:hover {
     font-size: 15px;
 }
 
-.contact p:hover{
+.contact p:hover {
     font-size: 15px;
 }
+
 .contact {
-    
-    background: hsl(216, 53%, 9%);
 
-}
-.contact p{
-    margin-top: 10px;
-}
-.about_us p{
-    margin-top: 10px;
-}
-
-.socials{
     background: hsl(216, 53%, 9%);
 
 }
 
-.socials .fa-brands:hover{
+.contact p {
+    margin-top: 10px;
+}
+
+.about_us p {
+    margin-top: 10px;
+}
+
+.socials {
+    background: hsl(216, 53%, 9%);
+
+}
+
+.socials .fa-brands:hover {
     font-size: 25px;
 
 }
- 
-.socials .fa-brands{
+
+.socials .fa-brands {
     font-size: 20px;
     background: hsl(216, 53%, 9%);
     padding-right: 10px;
     color: white;
-    
+
     cursor: pointer;
 
 }
-    
 
 
 
-  @media only screen and (max-width: 600px) {
-      
-    *{
+
+@media only screen and (max-width: 600px) {
+
+    * {
         margin: 0;
         padding: 0;
-        
+
         background-size: cover;
     }
-    body{
+
+    body {
         width: 100vw;
     }
 
-    #main_container .nav_bar{
+    #main_container .nav_bar {
         flex-wrap: nowrap;
         width: inherit;
         justify-content: space-between;
     }
-    #main_container .nav_bar .logo1{
+
+    #main_container .nav_bar .logo1 {
         margin-left: 25px;
         width: 100px;
     }
 
-    .nav_bar_links ul{
+    .nav_bar_links ul {
         margin-right: 20px;
         width: 100%;
-       
+
     }
-    .nav_bar_links ul li{
+
+    .nav_bar_links ul li {
         font-size: 10px;
     }
-    .get_started h2{
+
+    .get_started h2 {
         font-size: 20px;
     }
 
-    .icons_container{
+    .icons_container {
         margin-top: -20em;
-        
+
     }
 
-    .icons_container .no2_contain{
+    .icons_container .no2_contain {
         margin-top: 3em;
     }
 
-    .icons_container .no1_contain .my_task:nth-child(2){
-        margin-top: 3em;
-    }
-    .icons_container .no2_contain .my_task:nth-child(2){
+    .icons_container .no1_contain .my_task:nth-child(2) {
         margin-top: 3em;
     }
 
-    .my_crack{
+    .icons_container .no2_contain .my_task:nth-child(2) {
+        margin-top: 3em;
+    }
+
+    .my_crack {
         flex-direction: column;
         justify-content: center;
         justify-items: center;
     }
-    .my_crack_div1{
+
+    .my_crack_div1 {
         padding: 0;
         margin-top: 40px;
         width: 320px;
     }
-    .my_crack_h11{
+
+    .my_crack_h11 {
         font-size: 14px;
-    
+
     }
-    .logo{
-        margin-left: 100px ;
+
+    .logo {
+        margin-left: 100px;
         margin-bottom: -95px;
         width: 50px;
     }
-    .intro-email p.red{
+
+    .intro-email p.red {
         display: none;
     }
-    input.button2{
+
+    input.button2 {
         margin-bottom: 30px;
+        padding: 10px 40px;
     }
-    .footer_text{
+
+    .footer_text {
         flex-direction: column;
     }
-    .phoness, .contact,.socials, .about_us{
+
+    .phoness,
+    .contact,
+    .socials,
+    .about_us {
         margin-top: 50px;
     }
-    .socials{
+
+    .socials {
         margin: 20px auto;
     }
 
-    footer .footer_logo img{
+    footer .footer_logo img {
         margin-left: 60px;
     }
 
 
 
 
-  }
+}
 
 @media only screen and (max-width:375px) {
-    
+
     * body {
         margin: 0;
         padding: 0;
-    
- 
-      
-        
+
+
+
+
     }
-    #main_container .nav_bar{
+
+    #main_container .nav_bar {
         width: inherit;
         height: 100%;
-      
+
     }
-   #main_container .nav_bar .logo1{
+
+    #main_container .nav_bar .logo1 {
         margin-left: 10px;
     }
 
-    .nav_bar_links ul{
+    .nav_bar_links ul {
         width: 100%;
-    background-color: hsl(218, 28%, 15%);
-    
-        
-    }
-    .nav_bar_links ul li a{
-    background-color: hsl(218, 28%, 15%);
+        background-color: hsl(218, 28%, 15%);
+
 
     }
-    .get_started h2{
+
+    .nav_bar_links ul li a {
+        background-color: hsl(218, 28%, 15%);
+
+    }
+
+    .get_started h2 {
         font-size: 16px;
         line-height: 20px;
-       
+
     }
-    .get_started p{
+
+    .get_started p {
         font-size: 10px;
         line-height: 20px;
         opacity: .7;
-       
+
     }
-    .cyrvy{
+
+    .nav_bar_links {
         display: none;
     }
-    .button1{
+
+    .curvy {
+
+        height: 80vh;
+
+    }
+
+    .button1 {
         width: 180px;
         height: 30px;
         text-align: center;
     }
-    .button1[value]{
+
+    .button1[value] {
         text-align: center;
         padding: 0;
         font-size: 10px;
     }
-    .first_content{
+
+    .first_content {
         width: inherit;
-    
+
     }
 
     .my_task p {
-        
+
         width: 270px;
     }
-   
-    .icons_container{
+
+    .icons_container {
         margin-top: -15em;
-        
-        
+
+
     }
-    .my_crack img{
+
+    .my_crack img {
         width: 310px
     }
-    .my_crack_div1{
+
+    .my_crack_div1 {
         text-align: justify;
         width: 300px;
+        padding: 0 .3rem;
     }
-   
-.intro-email{
-    width: 80%;
-}
-.intro-email h5{
-    font-size: 15px;
-}
-.intro-email input:nth-child(1){
-    padding: 10px 20px 10px 20px ;
-    width: 90%;
-}
 
-.intro-email .button2[value]{
-    padding: 10px 20px 10px 20px ;
-    width: 90%;
-}
+    .intro-email {
+        width: 80%;
+    }
+
+    .intro-email h5 {
+        font-size: 15px;
+    }
+
+    .intro-email input:nth-child(1) {
+        padding: 10px 20px 10px 20px;
+        width: 90%;
+    }
+
+    .intro-email .button2[value] {
+        padding: 10px 20px 10px 20px;
+        width: 90%;
+    }
 
 
-    footer{
+    footer {
         background-size: cover;
         width: 100%;
     }
 
-   footer .footer_logo img{
+    footer .footer_logo img {
         margin-left: 60px;
     }
 
-    .socials{
+    .socials {
         margin: 0 auto;
     }
-    .contact{
+
+    .contact {
         margin: 20px 0px 20px 0px;
     }
 
